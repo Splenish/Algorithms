@@ -7,8 +7,7 @@ int binarySearch(int array[], int target, int arraySize) {
     int max = arraySize - 1;
     int guess;
 
-    //Loops the search until target is found or there are no more
-    //elements in the subarray
+    //Loops the search until target is found or there are no more elements in the subarray
     while(max >= min) {
 
         //Always guesses the middle index of the array
